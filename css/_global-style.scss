@@ -1,0 +1,141 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+html {    
+    overflow-x: hidden;
+}
+
+::-moz-selection {
+    background: #3f3f3f;
+    color: #fff;
+}
+
+::selection {
+    background: #3f3f3f;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+    color: #772583;
+}
+
+h2 {
+    font-size:26px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+h4 {
+    font-size:18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+blockquote {
+    color: #772583;
+    border-left: 1px solid #772582;
+    padding-left: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+    font-style: italic;
+}
+
+img {
+    width: 100%;
+}
+
+section ul {
+    padding-left: 10px
+}
+
+section ul li {
+    background: url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/Teal_list_item_square.jpg) no-repeat left 8px;
+    padding-left: 16px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+section ul.tick-list li {
+  background: url(https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/img/icons/Teal_Tick.png) no-repeat left 40%;
+  border-bottom: 0;
+  padding-left: 30px;
+  margin: 10px 0;
+}
+
+p + h2, p + blockquote, ul + h2, .responsive-iframe + h2, p + h3, ul + h3, .responsive-iframe + h3 {
+    margin-top: 50px;
+}
+
+.spacer {
+    margin-top: 20px;
+}
+
+.large-spacer {
+    margin-top: 40px;
+}
+
+small, .small {
+    font-size: 11px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    min-width: 150px;
+    display: inline-block;
+    margin: 10px 15px 10px 0;
+    
+    &:hover {
+        text-decoration: none;
+        background: #3ab4b4;
+    }
+}
+
+.btn-primary {
+    border: 3px solid #3ab4b4;
+}
+
+.btn-primary:hover {
+    background: #2e8d8d;
+}
+
+.btn, .btn-primary, .btn:hover, .btn-primary:hover {
+    -webkit-transition: background-color 0.5s, border 0.5s;
+    -moz-transition: background-color 0.5s, border 0.5s;
+    -o-transition: background-color 0.5s, border 0.5s;
+    transition: background-color 0.5s, border 0.5s;
+}
+
+.responsive-iframe {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}

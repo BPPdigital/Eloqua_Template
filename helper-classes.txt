@@ -1,0 +1,37 @@
+Helper classes
+
+.full-page
+	Use when there is one section that needs to be the full page e.g. confirmation pages.
+
+.full-height
+	Use when there is a section within a page that needs to be full height regardless of content
+
+.single-page-footer
+	Use when there is a .full-page class in use to bring the footer up -57px onto the page
+
+.spacer
+	Adds 20px margin-top
+
+.large-spacer
+	Adds 40px margin-top
+
+.small
+	Makes text 11px
+
+.tick-list
+	Used on ul to make list-style into teal ticks
+
+.btn-default
+	Transparent button with white outline
+
+.btn .btn-primary
+	Teal button, white text
+
+.responsive-iframe
+	For use with Google Maps and Youtube iFrames to make them responsive
+	change padding-bottom % to change aspect ratio of box
+
+.bg-img-section
+    Inverts the colour of text and forms to show up on dark coloured backgrounds
+
+All bootstrap helper classes can be used.

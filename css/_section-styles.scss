@@ -1,0 +1,76 @@
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    margin-top: -50px;
+    padding-top: 50px;
+    z-index: 1;
+}
+
+@media (max-width: 350px) {
+    .wrapper {
+        left: 0;
+    }
+}
+
+section {
+    padding: 60px 0;
+}
+
+section:nth-child(even) {
+    background: #F6F7F9;
+}
+
+.bg-img-section {
+    color: #fff;
+    
+    p, h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+}
+
+section.banner {
+    padding: 40px 0;
+}
+
+@media (max-width: 767px) {
+    section + section {
+        padding: 60px 0 60px 0;
+    }
+}
+
+.banner {
+    background-size: cover;
+    min-height: 30%;
+    min-height: 30vh;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    
+    h1 {
+        color:#fff;
+        font-weight: lighter;
+    }
+    
+    p {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+}
+
+.full-height {
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+.full-page {
+    margin-top: -50px;
+    padding-top: 50px;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+.ui-loader {
+    display: none;
+}

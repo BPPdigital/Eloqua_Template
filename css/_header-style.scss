@@ -1,0 +1,54 @@
+header {
+    height: 50px;
+    box-sizing: border-box;
+    background: #000;
+    min-width: 100%;
+    padding: 5px;
+    position: relative;
+    z-index: 9998;
+    
+    p {
+        margin-top: 9px;
+        margin-left: 10px;
+        display: block;
+        font-size: 14px;
+        float: left;
+        width: 100px;
+        color: #fff;
+        cursor: pointer;
+        height:20px;
+    }
+    
+    .brand {
+        display:block;
+        text-align: center;
+    }
+    
+    img {
+        display: inline-block;
+        padding: 0;
+        width: auto;
+        margin-top: 0px;
+    }
+    
+    h2 {
+        display: inline-block;
+        padding: 0;
+        margin: 5px 0 0 0;
+        font-weight: lighter;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    header {
+        position: absolute;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: auto;
+    }
+}
